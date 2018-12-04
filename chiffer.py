@@ -4,11 +4,12 @@ letters = []
 crypt = []
 
 for letters in word:
-    letters.append(ord(letter) + key
+    letters.append(ord(letter) + key)
+    
     print(letters)
 
 for l in letters:
     crypt.append(chr(l -key)
-    print(crypt)
 
-           
+print(crypt)
+
