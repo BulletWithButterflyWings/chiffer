@@ -1,15 +1,15 @@
-word = "test"
-key = 12
-letters = []
-crypt = []
+word = "test" #
+key = 12 #
+letters = [] #
+crypt = [] #
 
-for letters in word:
-    letters.append(ord(letter) + key)
+for letters in word: # En loop, tills hela ordet är klart. 
+    letters.append(ord(letter) + key) #
     
-    print(letters)
+    print(letters) #
 
-for l in letters:
-    crypt.append(chr(l -key)
+for l in letters: #
+    crypt.append(chr(l -key) #
 
-print(crypt)
+print(crypt) #
 
