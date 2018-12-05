@@ -12,12 +12,11 @@ while choice != 3:
     print("Tryck 3 för att avsluta.")
 
     try:
-        choice = int(input("Gör ett val"))
+        choice = int(input("Gör ett val:"))
     except:
         print("Du gjorde inte ett val, försök igen.")
 
-        
-
+    
 if choice == 1:
     for letter in word: # En loop, tills hela ordet är klart. 
         letters.append(ord(letter) + key) #
