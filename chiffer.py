@@ -1,4 +1,4 @@
-word = "test" #
+word = "" #
 key = 12 #
 letters = [] #
 crypt = [] #
@@ -17,13 +17,20 @@ while choice != 3:
         print("Du gjorde inte ett val, försök igen.")
 
     
-if choice == 1:
-    for letter in word: # En loop, tills hela ordet är klart. 
-        letters.append(ord(letter) + key) #
+    if choice == 1:
+        word = input("skriv det du vill kryptera: ")
+        for letter in word: # En loop, tills hela ordet är klart. 
+            letters.append(ord(letter) + key) #
     
-    print(letters) #
+        print(letters) #
+        
 
-for l in letters: #
-    crypt.append(chr(l -key)) #
+    elif choice == 2:
+        word = input("Skriv det du vill dekryptera: ")
+        for l in letters: #
+            crypt.append(chr(l -key)) #
 
-print(crypt)
+        print(crypt)
+    
+    else:
+        print("")
