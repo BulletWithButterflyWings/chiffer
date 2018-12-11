@@ -38,7 +38,7 @@ while choice != 3: # Om du väljer "3" avslutas programmet.
         word = input("Skriv in din krypterade kod: ") # 
         for l in word: #
             variabel = ord(l) - key #
-            print(variabel) #
+            print(variabel) # Skriver ut en variabel.
         
             print(chr(variabel)) # Gör om ett heltal till ett ord.
 
